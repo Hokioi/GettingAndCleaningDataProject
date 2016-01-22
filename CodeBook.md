@@ -33,77 +33,77 @@ This dataset collates data from the test and training datasets of the Human Acti
 
 accelerometerTidy variables
 ===========================
-subject: unique identifier for each of the 30 participants. Levels 1:30.
+subject: unique identifier for each of the 30 participants. Levels 1:30.  
 activity: description of the activity that the subject undertook. Factor variable with 6 levels: walking, walking_upstairs, walking_downstairs, sitting, standing, laying.
 
 The following measurement variables were derived as described under 'Study Design' above, and were normalized and bounded within [-1,1] by Anguita et al. (hence no units).
 
-tBodyAccmeanX: mean value of the body linear acceleration, direction X 
-tBodyAccmeanY: mean value of the body linear acceleration, direction Y 
-tBodyAccmeanZ: mean value of the body linear acceleration, direction Z 
-tBodyAccsdX: standard deviation of the body linear acceleration, direction X
-tBodyAccsdY: standard deviation of the body linear acceleration, direction Y
-tBodyAccsdZ: standard deviation of the body linear acceleration, direction Z
-tGravityAccmeanX: mean value of the gravity acceleration, direction X
-tGravityAccmeanY: mean value of the gravity acceleration, direction Y
-tGravityAccmeanZ: mean value of the gravity acceleration, direction Z
-tGravityAccsdX: standard deviation of the gravity acceleration, direction X
-tGravityAccsdY: standard deviation of the gravity acceleration, direction Y
-tGravityAccsdZ: standard deviation of the gravity acceleration, direction Z
-tBodyAccJerkmeanX: mean value of the jerk body acceleration signal, direction X
-tBodyAccJerkmeanY: mean value of the jerk body acceleration signal, direction Y
-tBodyAccJerkmeanZ: mean value of the jerk body acceleration signal, direction Z
-tBodyAccJerksdX: standard deviation of the jerk body acceleration signal, direction X
-tBodyAccJerksdY: standard deviation of the jerk body acceleration signal, direction Y
-tBodyAccJerksdZ: standard deviation of the jerk body acceleration signal, direction Z
-tBodyGyromeanX: mean value of the angular velocity, direction X
-tBodyGyromeanY: mean value of the angular velocity, direction Y
-tBodyGyromeanZ: mean value of the angular velocity, direction Z
-tBodyGyrosdX: standard deviation of the angular velocity, direction X
-tBodyGyrosdY: standard deviation of the angular velocity, direction Y
-tBodyGyrosdZ: standard deviation of the angular velocity, direction Z
-tBodyGyroJerkmeanX: mean value of the jerk angular velocity signal, direction X
-tBodyGyroJerkmeanY: mean value of the jerk angular velocity signal, direction Y
-tBodyGyroJerkmeanZ: mean value of the jerk angular velocity signal, direction Z
-tBodyGyroJerksdX: standard deviation of the jerk angular velocity signal, direction X
-tBodyGyroJerksdY: standard deviation of the jerk angular velocity signal, direction Y
-tBodyGyroJerksdZ: standard deviation of the jerk angular velocity signal, direction Z
-tBodyAccMagmean: mean value of the magnitude of the body linear acceleration three dimensional signals
-tBodyAccMagsd: standard deviation of the magnitude of the body linear acceleration three dimensional signals
-tGravityAccMagmean: mean value of the magnitude of the gravity acceleration three dimensional signals
-tGravityAccMagsd: standard deviation of the magnitude of the gravity acceleration three dimensional signals
-tBodyAccJerkMagmean: mean value of the magnitude of the jerk body acceleration three dimensional signals
-tBodyAccJerkMagsd: standard deviation of the magnitude of the jerk body acceleration three dimensional signals
-tBodyGyroMagmean: mean value of the magnitude of the angular velocity three dimensional signals
-tBodyGyroMagsd: standard deviation of the magnitude of the angular velocity three dimensional signals
-tBodyGyroJerkMagmean: mean value of the magnitude of the jerk angular velocity three dimensional signals
-tBodyGyroJerkMagsd: standard deviation of the magnitude of the jerk angular velocity three dimensional signals
-fBodyAccmeanX: FFT of tBodyAccmeanX
-fBodyAccmeanY: FFT of tBodyAccmeanY
-fBodyAccmeanZ: FFT of tBodyAccmeanZ
-fBodyAccsdX: FFT of tBodyAccsdX
-fBodyAccsdY: FFT of tBodyAccsdY
-fBodyAccsdZ: FFT of tBodyAccsdZ
-fBodyAccJerkmeanX: FFT of tBodyAccJerkmeanX
-fBodyAccJerkmeanY: FFT of tBodyAccJerkmeanY
-fBodyAccJerkmeanZ: FFT of tBodyAccJerkmeanZ
-fBodyAccJerksdX: FFT of tBodyAccJerksdX
-fBodyAccJerksdY: FFT of tBodyAccJerksdY
-fBodyAccJerksdZ: FFT of tBodyAccJerksdY
-fBodyGyromeanX: FFT of tBodyGyromeanX
-fBodyGyromeanY: FFT of tBodyGyromeanY
-fBodyGyromeanZ: FFT of tBodyGyromeanZ
-fBodyGyrosdX: FFT of tBodyGyrosdX
-fBodyGyrosdY: FFT of tBodyGyrosdY
-fBodyGyrosdZ: FFT of tBodyGyrosdZ
-fBodyAccMagmean: FFT of tBodyAccMagmean
-fBodyAccMagsd: FFT of tBodyAccMagsd
-fBodyBodyAccJerkMagmean: FFT of tBodyAccJerkMagmean
-fBodyBodyAccJerkMagsd: FFT of tBodyAccJerkMagsd
-fBodyBodyGyroMagmean: FFT of tBodyGyroMagmean
-fBodyBodyGyroMagsd: FFT of tBodyGyroMagsd
-fBodyBodyGyroJerkMagmean: FFT of tBodyGyroJerkMagmean
-fBodyBodyGyroJerkMagsd: FFT of tBodyGyroJerkMagmean
+tBodyAccmeanX: mean value of the body linear acceleration, direction X  
+tBodyAccmeanY: mean value of the body linear acceleration, direction Y  
+tBodyAccmeanZ: mean value of the body linear acceleration, direction Z  
+tBodyAccsdX: standard deviation of the body linear acceleration, direction X 
+tBodyAccsdY: standard deviation of the body linear acceleration, direction Y 
+tBodyAccsdZ: standard deviation of the body linear acceleration, direction Z 
+tGravityAccmeanX: mean value of the gravity acceleration, direction X  
+tGravityAccmeanY: mean value of the gravity acceleration, direction Y  
+tGravityAccmeanZ: mean value of the gravity acceleration, direction Z  
+tGravityAccsdX: standard deviation of the gravity acceleration, direction X  
+tGravityAccsdY: standard deviation of the gravity acceleration, direction Y  
+tGravityAccsdZ: standard deviation of the gravity acceleration, direction Z  
+tBodyAccJerkmeanX: mean value of the jerk body acceleration signal, direction X  
+tBodyAccJerkmeanY: mean value of the jerk body acceleration signal, direction Y  
+tBodyAccJerkmeanZ: mean value of the jerk body acceleration signal, direction Z  
+tBodyAccJerksdX: standard deviation of the jerk body acceleration signal, direction X  
+tBodyAccJerksdY: standard deviation of the jerk body acceleration signal, direction Y  
+tBodyAccJerksdZ: standard deviation of the jerk body acceleration signal, direction Z  
+tBodyGyromeanX: mean value of the angular velocity, direction X  
+tBodyGyromeanY: mean value of the angular velocity, direction Y  
+tBodyGyromeanZ: mean value of the angular velocity, direction Z  
+tBodyGyrosdX: standard deviation of the angular velocity, direction X  
+tBodyGyrosdY: standard deviation of the angular velocity, direction Y  
+tBodyGyrosdZ: standard deviation of the angular velocity, direction Z  
+tBodyGyroJerkmeanX: mean value of the jerk angular velocity signal, direction X  
+tBodyGyroJerkmeanY: mean value of the jerk angular velocity signal, direction Y  
+tBodyGyroJerkmeanZ: mean value of the jerk angular velocity signal, direction Z  
+tBodyGyroJerksdX: standard deviation of the jerk angular velocity signal, direction X  
+tBodyGyroJerksdY: standard deviation of the jerk angular velocity signal, direction Y  
+tBodyGyroJerksdZ: standard deviation of the jerk angular velocity signal, direction Z  
+tBodyAccMagmean: mean value of the magnitude of the body linear acceleration three dimensional signals  
+tBodyAccMagsd: standard deviation of the magnitude of the body linear acceleration three dimensional signals  
+tGravityAccMagmean: mean value of the magnitude of the gravity acceleration three dimensional signals  
+tGravityAccMagsd: standard deviation of the magnitude of the gravity acceleration three dimensional signals  
+tBodyAccJerkMagmean: mean value of the magnitude of the jerk body acceleration three dimensional signals  
+tBodyAccJerkMagsd: standard deviation of the magnitude of the jerk body acceleration three dimensional signals  
+tBodyGyroMagmean: mean value of the magnitude of the angular velocity three dimensional signals  
+tBodyGyroMagsd: standard deviation of the magnitude of the angular velocity three dimensional signals  
+tBodyGyroJerkMagmean: mean value of the magnitude of the jerk angular velocity three dimensional signals  
+tBodyGyroJerkMagsd: standard deviation of the magnitude of the jerk angular velocity three dimensional signals  
+fBodyAccmeanX: FFT of tBodyAccmeanX  
+fBodyAccmeanY: FFT of tBodyAccmeanY  
+fBodyAccmeanZ: FFT of tBodyAccmeanZ  
+fBodyAccsdX: FFT of tBodyAccsdX  
+fBodyAccsdY: FFT of tBodyAccsdY  
+fBodyAccsdZ: FFT of tBodyAccsdZ  
+fBodyAccJerkmeanX: FFT of tBodyAccJerkmeanX  
+fBodyAccJerkmeanY: FFT of tBodyAccJerkmeanY  
+fBodyAccJerkmeanZ: FFT of tBodyAccJerkmeanZ  
+fBodyAccJerksdX: FFT of tBodyAccJerksdX  
+fBodyAccJerksdY: FFT of tBodyAccJerksdY  
+fBodyAccJerksdZ: FFT of tBodyAccJerksdY  
+fBodyGyromeanX: FFT of tBodyGyromeanX  
+fBodyGyromeanY: FFT of tBodyGyromeanY  
+fBodyGyromeanZ: FFT of tBodyGyromeanZ  
+fBodyGyrosdX: FFT of tBodyGyrosdX  
+fBodyGyrosdY: FFT of tBodyGyrosdY  
+fBodyGyrosdZ: FFT of tBodyGyrosdZ  
+fBodyAccMagmean: FFT of tBodyAccMagmean  
+fBodyAccMagsd: FFT of tBodyAccMagsd  
+fBodyBodyAccJerkMagmean: FFT of tBodyAccJerkMagmean  
+fBodyBodyAccJerkMagsd: FFT of tBodyAccJerkMagsd  
+fBodyBodyGyroMagmean: FFT of tBodyGyroMagmean  
+fBodyBodyGyroMagsd: FFT of tBodyGyroMagsd  
+fBodyBodyGyroJerkMagmean: FFT of tBodyGyroJerkMagmean  
+fBodyBodyGyroJerkMagsd: FFT of tBodyGyroJerkMagmean  
 
 
 accelerometerAverages dataset (submitted for the course project)
@@ -113,74 +113,74 @@ This dataset is derived from the accelerometerTidy dataset. While the accelerome
 
 accelerometerAverages variables
 ===========================
-subject: unique identifier for each of the 30 participants. Levels 1:30.
+subject: unique identifier for each of the 30 participants. Levels 1:30.  
 activity: description of the activity that the subject undertook. Factor variable with 6 levels: walking, walking_upstairs, walking_downstairs, sitting, standing, laying.
 
 The following measurement variables correspond to those in the accelerometerTidy table, except that they are the average values for each activity and subject, and they have been differentiated by applying the suffix "avg" to each variable name. tBodyAccmeanX, etcetera, is defined as described for the accelerometerTidy table.
 
-tBodyAccmeanXavg
-tBodyAccmeanYavg
-tBodyAccmeanZavg
-tBodyAccsdXavg
-tBodyAccsdYavg
-tBodyAccsdZavg
-tGravityAccmeanXavg
-tGravityAccmeanYavg
-tGravityAccmeanZavg
-tGravityAccsdXavg
-tGravityAccsdYavg
-tGravityAccsdZavg
-tBodyAccJerkmeanXavg
-tBodyAccJerkmeanYavg
-tBodyAccJerkmeanZavg
-tBodyAccJerksdXavg
-tBodyAccJerksdYavg
-tBodyAccJerksdZavg
-tBodyGyromeanXavg
-tBodyGyromeanYavg
-tBodyGyromeanZavg
-tBodyGyrosdXavg
-tBodyGyrosdYavg
-tBodyGyrosdZavg
-tBodyGyroJerkmeanXavg
-tBodyGyroJerkmeanYavg
-tBodyGyroJerkmeanZavg
-tBodyGyroJerksdXavg
-tBodyGyroJerksdYavg
-tBodyGyroJerksdZavg
-tBodyAccMagmeanavg
-tBodyAccMagsdavg
-tGravityAccMagmeanavg
-tGravityAccMagsdavg
-tBodyAccJerkMagmeanavg
-tBodyAccJerkMagsdavg
-tBodyGyroMagmeanavg
-tBodyGyroMagsdavg
-tBodyGyroJerkMagmeanavg
-tBodyGyroJerkMagsdavg
-fBodyAccmeanXavg
-fBodyAccmeanYavg
-fBodyAccmeanZavg
-fBodyAccsdXavg
-fBodyAccsdYavg
-fBodyAccsdZavg
-fBodyAccJerkmeanXavg
-fBodyAccJerkmeanYavg
-fBodyAccJerkmeanZavg
-fBodyAccJerksdXavg
-fBodyAccJerksdYavg
-fBodyAccJerksdZavg
-fBodyGyromeanXavg
-fBodyGyromeanYavg
-fBodyGyromeanZavg
-fBodyGyrosdXavg"
-fBodyGyrosdYavg
-fBodyGyrosdZavg
-fBodyAccMagmeanavg
-fBodyAccMagsdavg
-fBodyBodyAccJerkMagmeanavg
-fBodyBodyAccJerkMagsdavg
-fBodyBodyGyroMagmeanavg
-fBodyBodyGyroMagsdavg
-fBodyBodyGyroJerkMagmeanavg
-fBodyBodyGyroJerkMagsdavg
+tBodyAccmeanXavg  
+tBodyAccmeanYavg  
+tBodyAccmeanZavg  
+tBodyAccsdXavg  
+tBodyAccsdYavg  
+tBodyAccsdZavg  
+tGravityAccmeanXavg  
+tGravityAccmeanYavg  
+tGravityAccmeanZavg  
+tGravityAccsdXavg  
+tGravityAccsdYavg  
+tGravityAccsdZavg  
+tBodyAccJerkmeanXavg  
+tBodyAccJerkmeanYavg  
+tBodyAccJerkmeanZavg  
+tBodyAccJerksdXavg  
+tBodyAccJerksdYavg  
+tBodyAccJerksdZavg  
+tBodyGyromeanXavg  
+tBodyGyromeanYavg  
+tBodyGyromeanZavg  
+tBodyGyrosdXavg  
+tBodyGyrosdYavg  
+tBodyGyrosdZavg  
+tBodyGyroJerkmeanXavg  
+tBodyGyroJerkmeanYavg  
+tBodyGyroJerkmeanZavg  
+tBodyGyroJerksdXavg  
+tBodyGyroJerksdYavg  
+tBodyGyroJerksdZavg  
+tBodyAccMagmeanavg  
+tBodyAccMagsdavg  
+tGravityAccMagmeanavg  
+tGravityAccMagsdavg  
+tBodyAccJerkMagmeanavg  
+tBodyAccJerkMagsdavg  
+tBodyGyroMagmeanavg  
+tBodyGyroMagsdavg  
+tBodyGyroJerkMagmeanavg  
+tBodyGyroJerkMagsdavg  
+fBodyAccmeanXavg  
+fBodyAccmeanYavg  
+fBodyAccmeanZavg  
+fBodyAccsdXavg  
+fBodyAccsdYavg  
+fBodyAccsdZavg  
+fBodyAccJerkmeanXavg  
+fBodyAccJerkmeanYavg  
+fBodyAccJerkmeanZavg  
+fBodyAccJerksdXavg  
+fBodyAccJerksdYavg  
+fBodyAccJerksdZavg  
+fBodyGyromeanXavg  
+fBodyGyromeanYavg  
+fBodyGyromeanZavg  
+fBodyGyrosdXavg  
+fBodyGyrosdYavg  
+fBodyGyrosdZavg  
+fBodyAccMagmeanavg  
+fBodyAccMagsdavg  
+fBodyBodyAccJerkMagmeanavg  
+fBodyBodyAccJerkMagsdavg  
+fBodyBodyGyroMagmeanavg  
+fBodyBodyGyroMagsdavg  
+fBodyBodyGyroJerkMagmeanavg  
+fBodyBodyGyroJerkMagsdavg  
