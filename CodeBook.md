@@ -27,7 +27,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 Code Book
 =========
 
-accelerometerTidy dataset (not submitted for for the course project)
+accelerometerTidy dataset (not submitted for the course project)
 =========================
 This dataset collates data from the test and training datasets of the Human Activity Recognition Using Smartphones v1.0 Dataset, so that this table includes data from all 30 volunteers. Descriptive activity names were sourced from the activity_labels.txt file, and measurement variable names from the features.txt file. Only the mean and standard deviation measurements are included (these are the variables containing the strings "mean()" and "std()"). Measurements of the median absolute deviation, maximum and minumum values, signal magnitude area, energy, interquartile range, signal entropy, autorregresion and correlation coefficients, frequency indices, weighted averages, skewness, kurtosis, frequency interval energy, and angle are not included.
 
